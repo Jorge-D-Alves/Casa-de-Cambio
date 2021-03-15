@@ -1,0 +1,95 @@
+/* ===== GOOGLE FONTS ===== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+/* ===== Variaveis CSS ===== */
+:root {
+    --header-height: 3rem;
+    --nav-width: 324px;
+  
+    /* ===== Font weight ===== */
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+  
+    /* ===== Colors ===== */
+  
+    --first-color: #402bcc;
+    /* --first-color: #cc4b2c; */ 
+    --first-color-dark: #2d1a66;
+    /* --first-color-dark: #662616; */
+    --first-color-darken: #051629;
+    /* --first-color-darken: #290509; */
+    --text-color: #45543d;
+    --first-color-light: #eae7e6;
+    --first-color-lighten: #c2f0e1;
+  
+    /* ===== Font and typography ===== */
+    --body-font: 'Poppins', sans-serif;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+  
+    /* ===== Margenes ===== */
+  
+    --mb-1: 0.5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    /* ===== z index ===== */
+    --z-fixed: 100;
+  }
+  
+  @media screen and (min-width: 768px) {
+    :root {
+      --h1-font-size: 2.25rem;
+      --h2-font-size: 1.5rem;
+      --h3-font-size: 1.25rem;
+      --normal-font-size: 1rem;
+      --small-font-size: 0.875rem;
+      --smaller-font-size: 0.813rem;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    :root {
+      --h1-font-size: 2.25rem;
+      --h2-font-size: 1.5rem;
+      --h3-font-size: 1.25rem;
+      --normal-font-size: 1rem;
+      --small-font-size: 0.875rem;
+      --smaller-font-size: 0.813rem;
+    }
+  }
+  
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    margin: var(--header-height) 0 0 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    background-color: var(--first-color-lighten);
+    color: var(--text-color);
+    line-height: 1.6;
+  }
+  
+span{
+  font-weight: var(--font-bold);
+
+}
+
+.coin_icon {
+    font-size: 2.5rem;
+    color: #2E562F;
+    margin-right: var(--mb-4);
+  }
